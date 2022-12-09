@@ -1,0 +1,97 @@
+body{
+    background-color: lightblue;
+}
+
+#header{
+    background-color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 3px;
+    padding: 1px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+h2{
+    font-size: 25px;
+    font-family:'Courier New';
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 3px;
+    padding: 1px;
+    background-color:#000000;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+#content{
+    background-color: lightblue;
+    margin: 2px;
+    padding: 1px;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0.5px;
+    padding: 0.5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#edit {
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hapus {
+    padding: 3px;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#jam{
+    font-family: monospace;
+    text-align: left;
+    font-size: 20px;
+    width: 1100px;
+}
+

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Tugas Jobsheet 12 - Syahla' Syafiqah</title>
+        <link rel="stylesheet" href="styleTugas.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Selamat Datang Member</h1>
+            <h2>Fearless</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="pendaftaran.php" target="content">Pendaftaran</a></li>
+                <li><a href="daftarMember.php" target="content">Daftar Member</a></li>
+                <li><a href="#" id="jam"></a></li>
+            </ul>
+        </div>
+        <div id="content"><iframe frameborder="0" width=100% height=63% scrolling="auto" name="content"></iframe>
+        </div>
+        <div id="footer">
+            <h3>Syahla' Syafiqah Fayra <b id="jam"></b></h3>
+        </div>
+    </body>
+</html>
+
+<script type="text/javascript">
+    window.onload = function() { jam(); }
+    
+    function jam() {
+    var e = document.getElementById('jam'),
+    d = new Date(), h, m;
+    h = d.getHours();
+    m = set(d.getMinutes());
+    s = set(d.getSeconds());
+    
+    e.innerHTML = h +':'+ m + ':' + s;
+    
+    setTimeout('jam()', 1000);
+    }
+    
+    function set(e) {
+    e = e < 10 ? '0'+ e : e;
+    return e;
+    }
+    </script>
